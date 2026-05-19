@@ -757,3 +757,73 @@ footer i {
         gap: 1.5rem;
     }
 }
+
+/* ── EXPERIÊNCIAS ── */
+#experiencias { background: var(--surface); }
+
+.experiencia-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: border-color .3s;
+}
+
+.experiencia-card:hover {
+  border-color: var(--accent);
+}
+
+.experiencia-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.experiencia-icon {
+  width: 52px;
+  height: 52px;
+  background: rgba(124, 106, 247, 0.15);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.experiencia-icon i {
+  font-size: 1.8rem;
+  color: var(--accent);
+}
+
+.experiencia-cargo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.experiencia-empresa {
+  color: var(--accent2);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.experiencia-periodo {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.experiencia-descricao p {
+  color: var(--text);
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.experiencia-descricao ul {
+  padding-left: 1.2rem;
+}
+
+.experiencia-descricao li {
+  margin-bottom: 0.6rem;
+  color: var(--text);
+}
